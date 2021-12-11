@@ -1,0 +1,27 @@
+{
+  "name": "backing-tracks-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/backing-tracks-api.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack",
+    "format-check": "node_modules/prettier/bin-prettier.js --check .",
+    "format": "node_modules/prettier/bin-prettier.js --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katzarov/BackingTracksApiWrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katzarov/BackingTracksApiWrapper/issues"
+  },
+  "homepage": "https://github.com/Katzarov/BackingTracksApiWrapper#readme",
+  "devDependencies": {
+    "prettier": "2.5.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
